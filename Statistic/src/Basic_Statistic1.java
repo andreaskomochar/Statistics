@@ -1,4 +1,4 @@
-public class Statistic1 {
+public class Basic_Statistic1 {
 
 	public static void main(String[] args) {
 
