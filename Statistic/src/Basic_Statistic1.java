@@ -1,3 +1,7 @@
+
+// Compute some basic statistics on given args
+
+
 public class Basic_Statistic1 {
 
 	public static void main(String[] args) {
@@ -9,7 +13,7 @@ public class Basic_Statistic1 {
 			sum = sum + Double.parseDouble(args[i]);
 		}
 		
-		System.out.println("Number of args:\t\t" + args.length);
+		System.out.println("Number of args:\t\t" + args.length); 
 		System.out.println("Sum of the args is:\t" + sum);
 		double mean = (sum) / args.length;
 		System.out.println("The mean value is:\t" + mean);
