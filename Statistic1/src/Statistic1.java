@@ -8,7 +8,7 @@ public class Statistic1 {
 
 		// Vnos spremenljivk
 		Scanner s = new Scanner(System.in);
-		System.out.println("Vnesi število spremenljivk......");
+		System.out.println("Vnesi ï¿½tevilo spremenljivk......");
 		int vnos1 = Integer.parseInt(s.nextLine());
 
 		ArrayList<Double> vnosi = new ArrayList<Double>();
@@ -23,16 +23,18 @@ public class Statistic1 {
 		Collections.sort(vnosi);
 		System.out.println("Po velikosti sortirano:\t\t\t " + vnosi);
 
-		// Izraèun povpreèja
+		// Izraï¿½un povpreï¿½ja
 		double vsota = 0;
 		for (int i = 0; i < vnosi.size(); i++) {
 			vsota = vsota + vnosi.get(i);
 
 		}
 
-		System.out.println("\nPovpreèje vnesenih spremenljivk je: "
+		System.out.println("\nPovpreï¿½je vnesenih spremenljivk je: "
 				+ (vsota / vnosi.size()));
 
 	}
 
 }
+
+
